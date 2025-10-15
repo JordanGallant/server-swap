@@ -42,10 +42,10 @@ export default function NavBar() {
             </div>
             <span className="font-medium">Base</span>
           </button>
-          <button className="hidden sm:flex items-center gap-2 px-6 h-full text-gray-900 dark:text-[#dee7cd] hover:bg-gray-100 dark:hover:bg-[#1c1f25] border-x border-gray-200 dark:border-gray-700 transition-colors">
-            <div className="w-5 h-5 sm:w-6 sm:h-6 bg-gradient-to-br from-orange-400 to-purple-600 rounded-full"></div>
-            <span className="font-mono text-xs sm:text-sm">0x54...d5</span>
-          </button>
+  <button className="hidden sm:flex items-center gap-2 px-6 h-full text-gray-900 dark:text-[#dee7cd] hover:bg-gray-100 dark:hover:bg-[#1c1f25] border-l border-gray-200 dark:border-gray-700 transition-colors">
+    <div className="w-5 h-5 sm:w-6 sm:h-6 bg-gradient-to-br from-orange-400 to-purple-600 rounded-full"></div>
+    <span className="font-mono text-xs sm:text-sm">0x54...d5</span>
+  </button>
 
           <button 
             onClick={() => setIsMenuOpen(!isMenuOpen)}
