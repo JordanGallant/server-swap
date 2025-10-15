@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import { ThemeToggle } from '@/components/theme-toggle';
+import { ThemeToggle } from './theme-toggle';
 import { useTheme } from 'next-themes';
 
 export default function NavBar() {
